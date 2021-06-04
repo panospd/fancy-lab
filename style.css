@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*
+Theme Name: Fancy Lab
+Theme URI: https://fancy-lab-uri
+Author: Panos Anastasiadis
+Author URI: https://github.com/panospd/me
+Description: Fancy Lab is a compatible WooCommerce theme made with WordPress. It is the best theme!
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fancy-lab
+Tags: e-commerce, custom-menu, featured-images, footer-widgets, theme-options, translation-ready, blog, right0sidebar, sticky
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Twenty Nineteen is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+
+Bundled block pattern images:
+Abstract Background by HD Wallpapers, CC0. https://stocksnap.io/photo/abstract-background-0SRRVNMKBX
+Abstract Waves by HD Wallpapers, CC0. https://stocksnap.io/photo/abstract-waves-0KREGLTZQ3
+Abstract Bokeh by HD Wallpapers, CC0. https://stocksnap.io/photo/abstract-bokeh-P4KVZBMQ6L
+Colorful Bokeh by HD Wallpapers, CC0. https://stocksnap.io/photo/colorful-bokeh-VN4G84GL8H
+*/
+
+/* Header - Main Menu */
+.main-menu {
+    padding: 0;
+}
+
+.main-menu ul {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+.main-menu ul li {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+.main-menu ul li:last-child {
+    margin: 0;
+}
+
+/* Footer - Footer Menu */
+.footer-menu ul,
+.footer-widgets ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-menu ul li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.footer-menu ul li:last-child {
+    margin: 0;
+}
+
+.footer-menu ul li a {
+    color: #939393;
+    text-decoration: none;
+}
+
+.footer-menu ul li.current-menu-item a {
+    color: #ff9292;
+}
