@@ -75,3 +75,14 @@ Colorful Bokeh by HD Wallpapers, CC0. https://stocksnap.io/photo/colorful-bokeh-
 .footer-menu ul li.current-menu-item a {
     color: #ff9292;
 }
+
+/* General */
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
