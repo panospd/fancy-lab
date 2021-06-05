@@ -27,6 +27,10 @@ Abstract Bokeh by HD Wallpapers, CC0. https://stocksnap.io/photo/abstract-bokeh-
 Colorful Bokeh by HD Wallpapers, CC0. https://stocksnap.io/photo/colorful-bokeh-VN4G84GL8H
 */
 
+body {
+    font-family: "Rajdhani";
+}
+
 /* Header - Main Menu */
 .main-menu {
     padding: 0;
