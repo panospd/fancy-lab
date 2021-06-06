@@ -23,7 +23,9 @@
         <header>
             <section class="search">
                 <div class="container">
-                    Search
+                    <div class="d-md-flex justify-content-center align-items-center">
+                        <?php get_search_form(); ?>
+                    </div>
                 </div>
             </section>
             <section class="top-bar">
