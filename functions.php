@@ -15,6 +15,11 @@ function fancy_lab_scripts() {
     wp_enqueue_style('bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '4.3.1', 'all');
     wp_enqueue_style('fancy-lab-style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all');
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Seaweed+Script&display=swap');
+
+    // Flexslider Javascript and css files
+    wp_enqueue_script('flexslider-min-js', get_template_directory_uri() . '/inc/flexslider/jquery.flexslider-min.js', array('jquery'), '', true);
+    wp_enqueue_script('flexslider-js', get_template_directory_uri() . '/inc/flexslider/flexslider.js', array('jquery'), '', true);
+    wp_enqueue_style('flexslider-css', get_template_directory_uri() . '/inc/flexslider/flexslider.css', array(), '', 'all');
 }
 
 add_action('wp_enqueue_scripts', 'fancy_lab_scripts');
@@ -49,6 +54,8 @@ function fancy_lab_config() {
         'flex_height' => true,
         'flex_width' => true
     ));
+
+    add_image_size('fancy-lab-slider', 1920, 800, array('center', 'center'));
 
     if(! isset($content_width)) {
         $content_width = 600;
