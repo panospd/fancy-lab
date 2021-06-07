@@ -205,6 +205,85 @@
             'type' => 'url'
         )
     );
+
+    // Home Page Settings
+    $wp_customize->add_section( 
+        'sec_home_page' , array(
+        'title'      => 'Home Page Products and Blog Settings',
+        'description' => 'Home Page Section'
+    ));
+
+    // Popular Products limit
+    $wp_customize->add_setting(
+        'set_popular_max_num', array(
+            'type' => 'theme_mod',
+            'default' => '',
+            'sanitize_callback' => 'absint'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_popular_max_num', array(
+            'label' => 'Set Popular Products Max Number',
+            'description' => 'Set Polular Products Max Number',
+            'section' => 'sec_home_page',
+            'type' => 'number'
+        )
+    );
+    // Popular Products columns
+    $wp_customize->add_setting(
+        'set_popular_max_col', array(
+            'type' => 'theme_mod',
+            'default' => '',
+            'sanitize_callback' => 'absint'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_popular_max_col', array(
+            'label' => 'Set Popular Products Max Columns',
+            'description' => 'Set Polular Products Max Columns',
+            'section' => 'sec_home_page',
+            'type' => 'number'
+        )
+    );
+
+    // ----------
+
+    // New Arrivals limit
+    $wp_customize->add_setting(
+        'set_new_arrivals_max_num', array(
+            'type' => 'theme_mod',
+            'default' => '',
+            'sanitize_callback' => 'absint'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_new_arrivals_max_num', array(
+            'label' => 'Set New Arrivals Max Number',
+            'description' => 'Set New Arrivals Max Number',
+            'section' => 'sec_home_page',
+            'type' => 'number'
+        )
+    );
+    // New Arrivals columns
+    $wp_customize->add_setting(
+        'set_new_arrivals_max_col', array(
+            'type' => 'theme_mod',
+            'default' => '',
+            'sanitize_callback' => 'absint'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_new_arrivals_max_col', array(
+            'label' => 'Set New Arrivals Max Columns',
+            'description' => 'Set New Arrivals Max Columns',
+            'section' => 'sec_home_page',
+            'type' => 'number'
+        )
+    );
  }
 
  add_action('customize_register', 'fancy_lab_customizer');
