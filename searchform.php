@@ -17,5 +17,7 @@
     </button>
     <?php if(class_exists('WooCommerce')): ?>
         <input type="hidden" name="post_type" value="product" id="post_type">
+    <?php else: ?>
+        <input type="hidden" name="post_type" value="post" id="post_type">
     <?php endif; ?>
 </form>
