@@ -56,18 +56,21 @@ get_header(); ?>
         <?php
             $popular_limit = get_theme_mod('set_popular_max_num', 4);
             $popular_col = get_theme_mod('set_popular_max_col', 4);
+            $popular_title = get_theme_mod('set_popular_title', 'Popular Products');
 
             $arrivals_limit = get_theme_mod('set_new_arrivals_max_num', 4);
             $arrivals_col = get_theme_mod('set_new_arrivals_max_col', 4);
+            $arrivals_title = get_theme_mod('set_new_arrivals_title', 'New Arrivals');
+            
         ?>
             <div class="container">
-                <h2>Popular Products</h2>
+                <h2><?php echo $popular_title; ?></h2>
                 <?php echo do_shortcode('[products limit=" ' . $popular_limit . ' " columns=" ' . $popular_col . ' " orderby="popularity"]'); ?>
             </div>
         </section>
         <section class="new-arrivals">
             <div class="container">
-                <h2 class="row">New Arrivals</h2>
+                <h2 class="row"><?php echo $arrivals_title; ?></h2>
                 <?php echo do_shortcode('[products limit=" ' . $arrivals_limit . '" columns="' . $arrivals_col . '" orderby="date"]'); ?>
             </div>
         </section>
@@ -83,7 +86,7 @@ get_header(); ?>
         ?>
         <section class="deal-of-the-week">
             <div class="container">
-                <h2>Deal of the Week</h2>
+                <h2><?php echo get_theme_mod('set_deal_title'); ?></h2>
                 <div class="row d-flex align-items-center">
                         <div class="deal-img col-12 col-md-6 ml-auto text-center">
                             <?php echo get_the_post_thumbnail($deal, 'large', array('class' => 'img-fluid')); ?>

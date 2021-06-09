@@ -213,6 +213,24 @@
         'description' => 'Home Page Section'
     ));
 
+    // Popular Products products title
+    $wp_customize->add_setting(
+        'set_popular_title', array(
+            'type' => 'theme_mod',
+            'default' => 'Popular Products',
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_popular_title', array(
+            'label' => 'Set Popular Products Title',
+            'description' => 'Set Polular Products Title',
+            'section' => 'sec_home_page',
+            'type' => 'text'
+        )
+    );
+
     // Popular Products limit
     $wp_customize->add_setting(
         'set_popular_max_num', array(
@@ -250,6 +268,24 @@
 
     // ----------
 
+    // New Arrivals title
+    $wp_customize->add_setting(
+        'set_new_arrivals_title', array(
+            'type' => 'theme_mod',
+            'default' => 'New Arrivals',
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_new_arrivals_title', array(
+            'label' => 'Set New Arrivals Title',
+            'description' => 'Set New Arrivals Title',
+            'section' => 'sec_home_page',
+            'type' => 'text'
+        )
+    );
+
     // New Arrivals limit
     $wp_customize->add_setting(
         'set_new_arrivals_max_num', array(
@@ -285,6 +321,8 @@
         )
     );
 
+    // ----------
+
     // Deal of the Week Checkbox
     $wp_customize->add_setting(
         'set_deal_show', array(
@@ -302,6 +340,24 @@
         )
     );
 
+     // Deal of the Week Title
+     $wp_customize->add_setting(
+        'set_deal_title', array(
+            'type' => 'theme_mod',
+            'default' => 'Deal of The Week',
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_deal_title', array(
+            'label' => 'Deal of the Week Title',
+            'description' => 'Title to display',
+            'section' => 'sec_home_page',
+            'type' => 'text'
+        )
+    );
+
     // Deal of the Week Product ID
     $wp_customize->add_setting(
         'set_deal', array(
@@ -313,7 +369,7 @@
 
     $wp_customize->add_control(
         'set_deal', array(
-            'label' => 'Deal o the Week Product ID',
+            'label' => 'Deal of the Week Product ID',
             'description' => 'Product ID to Display',
             'section' => 'sec_home_page',
             'type' => 'number'
