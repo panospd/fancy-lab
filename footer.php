@@ -12,7 +12,23 @@
         <footer>
             <section class="footer-widgets">
                 <div class="container">
-                    <div class="row">Footer Widgets</div>
+                    <div class="row">
+                        <?php if(is_active_sidebar('fancy-lab-footer-sidebar-1')): ?>
+                            <div class="col-12 col-md-4">
+                                <?php dynamic_sidebar('fancy-lab-footer-sidebar-1'); ?>
+                            </div>
+                        <?php endif; ?>
+                        <?php if(is_active_sidebar('fancy-lab-footer-sidebar-2')): ?>
+                            <div class="col-12 col-md-4">
+                                <?php dynamic_sidebar('fancy-lab-footer-sidebar-2'); ?>
+                            </div>
+                        <?php endif; ?>
+                        <?php if(is_active_sidebar('fancy-lab-footer-sidebar-3')): ?>
+                            <div class="col-12 col-md-4">
+                                <?php dynamic_sidebar('fancy-lab-footer-sidebar-3'); ?>
+                            </div>
+                        <?php endif; ?>
+                    </div>
                 </div>
             </section>
             <section class="copyright">

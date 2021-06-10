@@ -72,3 +72,66 @@ add_action('after_setup_theme', 'fancy_lab_config', 0);
 if(class_exists('WooCommerce')) {
     require get_template_directory() . '/inc/wc-modifications.php';
 }
+
+add_action('widgets_init', 'fancy_lab_sidebars');
+function fancy_lab_sidebars() {
+    register_sidebar(
+        array(
+           'name' => 'Fancy Lab Main Sidebar',
+           'id' => 'fancy-lab-sidebar-1',
+           'description' => 'Drag and drop your widgets here',
+           'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper">',
+           'after_widget' => '</div>',
+           'before_title' => '<h4 class="widget-title">',
+           'after_title' => '</h4>'
+        )
+    );
+
+    register_sidebar(
+        array(
+           'name' => 'Sidebar Shop',
+           'id' => 'fancy-lab-sidebar-shop',
+           'description' => 'Drag and drop your Woocommerce widgets here',
+           'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper">',
+           'after_widget' => '</div>',
+           'before_title' => '<h4 class="widget-title">',
+           'after_title' => '</h4>'
+        )
+    );
+
+    register_sidebar(
+        array(
+           'name' => 'Footer Sidebar 1',
+           'id' => 'fancy-lab-footer-sidebar-1',
+           'description' => 'Drag and drop your Woocommerce widgets here',
+           'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper">',
+           'after_widget' => '</div>',
+           'before_title' => '<h4 class="widget-title">',
+           'after_title' => '</h4>'
+        )
+    );
+
+    register_sidebar(
+        array(
+           'name' => 'Footer Sidebar 2',
+           'id' => 'fancy-lab-footer-sidebar-2',
+           'description' => 'Drag and drop your Woocommerce widgets here',
+           'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper">',
+           'after_widget' => '</div>',
+           'before_title' => '<h4 class="widget-title">',
+           'after_title' => '</h4>'
+        )
+    );
+
+    register_sidebar(
+        array(
+           'name' => 'Footer Sidebar 3',
+           'id' => 'fancy-lab-footer-sidebar-3',
+           'description' => 'Drag and drop your Woocommerce widgets here',
+           'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper">',
+           'after_widget' => '</div>',
+           'before_title' => '<h4 class="widget-title">',
+           'after_title' => '</h4>'
+        )
+    );
+}

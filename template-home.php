@@ -65,11 +65,11 @@ get_header(); ?>
 						<section class="popular-products">
 							<?php 
 
-							// Getting data from Customizer to display the Popular Products section
-							$popular_limit		= get_theme_mod( 'set_popular_max_num', 4 );
-							$popular_col 		= get_theme_mod( 'set_popular_max_col', 4 );
-							$arrivals_limit		= get_theme_mod( 'set_new_arrivals_max_num', 4 );
-							$arrivals_col		= get_theme_mod( 'set_new_arrivals_max_col', 4 );
+								// Getting data from Customizer to display the Popular Products section
+								$popular_limit		= get_theme_mod( 'set_popular_max_num', 4 );
+								$popular_col 		= get_theme_mod( 'set_popular_max_col', 4 );
+								$arrivals_limit		= get_theme_mod( 'set_new_arrivals_max_num', 4 );
+								$arrivals_col		= get_theme_mod( 'set_new_arrivals_max_col', 4 );
 
 							?>
 							<div class="container">
