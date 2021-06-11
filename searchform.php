@@ -9,10 +9,10 @@
 ?>
 
 <form role="search" method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
-    <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Search &hellip;', 'placeholder', 'Fancylab'); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+    <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Search &hellip;', 'placeholder', 'fancy-lab'); ?>" value="<?php echo get_search_query(); ?>" name="s" />
     <button type="submit" class="search-submit">
         <span class="screen-reader-text">
-            <?php echo _x('Search', 'submit button', 'twentysixteen'); ?>
+            <?php echo _x('Search', 'submit button', 'fancy-lab'); ?>
         </span>
     </button>
     <?php if(class_exists('WooCommerce')): ?>

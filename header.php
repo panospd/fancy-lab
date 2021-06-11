@@ -51,14 +51,14 @@
                                         <ul class="navbar-nav float-left">
                                             <?php if(is_user_logged_in()): ?>
                                             <li>
-                                                <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))); ?>" class="nav-link">My Account</a>
+                                                <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))); ?>" class="nav-link"><?php _e('My Account', 'fancy-lab'); ?></a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id')))); ?>" class="nav-link">Logout</a>
+                                                <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id')))); ?>" class="nav-link"><?php _e('Logout', 'fancy-lab'); ?></a>
                                             </li>
                                             <?php else: ?>
                                                 <li>
-                                                    <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))); ?>" class="nav-link">Login / Register</a>
+                                                    <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))); ?>" class="nav-link"><?php _e('Login / Register', 'fancy-lab'); ?></a>
                                                 </li>
                                             <?php endif; ?>
                                         </ul>
@@ -76,7 +76,14 @@
                                 <div class="col-12">
                                     <nav class="main-menu navbar navbar-expand-md navbar-light" role="navigation">
                                         <!-- Brand and toggle get grouped for better mobile display -->
-                                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+                                        <button 
+                                            class="navbar-toggler ml-auto" 
+                                            type="button" 
+                                            data-toggle="collapse" 
+                                            data-target="#bs-example-navbar-collapse-1" 
+                                            aria-controls="bs-example-navbar-collapse-1" 
+                                            aria-expanded="false" 
+                                            aria-label="<?php esc_attr_e( __('Toggle navigation', 'fancy-lab'), 'your-theme-slug' ); ?>">
                                             <span class="navbar-toggler-icon"></span>
                                         </button>
                                         <?php
