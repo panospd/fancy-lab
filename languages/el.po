@@ -1,0 +1,326 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fancy  Lab v1.0.0\n"
+"POT-Creation-Date: 2021-06-11 09:16+0100\n"
+"PO-Revision-Date: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: el\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Page not found"
+msgstr "Η σελίδα δεν βρέθηκε"
+
+#: 404.php:16
+msgid "Unfortunately, the page you tried to reach does not exist on this site!"
+msgstr "Δυστυχώς, η σελίδα που προσπαθώ να φτάσετε δεν υπάρχει σε αυτόν τον ιστότοπο!"
+
+#: 404.php:19
+msgid "Take a Look at Our Latest Posts"
+msgstr "Ρίξτε μια ματιά στις τελευταίες δημοσιεύσεις μας"
+
+#: archive.php:26 index.php:29 search.php:24
+msgid "Previous"
+msgstr "Προηγούμενη"
+
+#: archive.php:27 index.php:30 search.php:25
+msgid "Next"
+msgstr "Επόμενη"
+
+#: archive.php:31 index.php:34 template-home.php:188
+msgid "Nothing to display"
+msgstr "Δεν υπάρχει τίποτα να εμφανίσετε"
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Μία σκέψη για &ldquo;%s&rdquo;"
+
+#: comments.php:34
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Μία σκέψη για &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Σκέψεις για &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι απενεργοποιημένα."
+
+#: footer.php:39
+msgid "Copyright X - All Rights Reserved"
+msgstr "Πνευματική Ιδιοκτησία X - Όλα τα δικαιώματα εχουν κατοχυρωθεί"
+
+#: functions.php:30
+msgid "Fancy Lab Main Menu"
+msgstr "Fancy Lab Κύριο Μενού"
+
+#: functions.php:31
+msgid "Fancy Lab Footer Menu"
+msgstr "Fancy Lab Μενού Υποσελίδας"
+
+#: functions.php:85
+msgid "Fancy Lab Main Sidebar"
+msgstr "Fancy Lab Πλευρικό"
+
+#: functions.php:87
+msgid "Drag and drop your widgets here"
+msgstr "Σύρετε και αποθέστε widgets"
+
+#: functions.php:97
+msgid "Sidebar Shop"
+msgstr "Πλευρικό κατάστημα"
+
+#: functions.php:99 functions.php:111 functions.php:123 functions.php:135
+msgid "Drag and drop your Woocommerce widgets here"
+msgstr "Σύρετε και αποθέστε Woocommerce widgets εδώ"
+
+#: functions.php:109
+msgid "Footer Sidebar 1"
+msgstr "Χώρος υποσέλιδου 1"
+
+#: functions.php:121
+msgid "Footer Sidebar 2"
+msgstr "Χώρος υποσέλιδου 2"
+
+#: functions.php:133
+msgid "Footer Sidebar 3"
+msgstr "Χώρος υποσέλιδου 3"
+
+#: header.php:54
+msgid "My Account"
+msgstr "Ο Λογαριασμός μου"
+
+#: header.php:57
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: header.php:61
+msgid "Login / Register"
+msgstr "Σύνδεση / Αποσύνδεση"
+
+#: header.php:86
+msgid "Toggle navigation"
+msgstr "Μεταβολή Πλοήγησης"
+
+#: inc/class-wp-bootstrap-navwalker.php:369
+msgid "Add a menu"
+msgstr "Πρόσθεση Μενού"
+
+#: inc/customizer.php:14
+msgid "Copyright Settings"
+msgstr "Ρυθμίσεις Πνευματικής Ιδιοκτησίας"
+
+#: inc/customizer.php:15
+msgid "Copyright Section"
+msgstr "Ενότητα Πνευματικής Ιδιοκτησίας"
+
+#: inc/customizer.php:29
+msgid "Copyright"
+msgstr "Πνευματική Ιδιοκτησία"
+
+#: inc/customizer.php:30
+msgid "Please, add your copyright information here"
+msgstr "Παρακαλώ προσθέστε τα στοιχεία πνευματικής ιδιοκτησίας εδώ"
+
+#: inc/customizer.php:39
+msgid "Slider Settingsfancy-lab"
+msgstr "Ρυθμίσεις Slider fancy-lab"
+
+#: inc/customizer.php:40
+msgid "Slider Section"
+msgstr "Ενότητα Slider"
+
+#: inc/customizer.php:54 inc/customizer.php:55
+msgid "Set slider page 1"
+msgstr "Σελίδα 1 slider"
+
+#: inc/customizer.php:72 inc/customizer.php:73
+msgid "Button text for page 1"
+msgstr "Κείμενο κουμπιού για Σελίδα 1"
+
+#: inc/customizer.php:90 inc/customizer.php:91
+msgid "Button url for page 1"
+msgstr "Url κουμπιού για Σελίδα 1"
+
+#: inc/customizer.php:110 inc/customizer.php:111
+msgid "Set slider page 2"
+msgstr "Σελίδα 2 slider"
+
+#: inc/customizer.php:128
+msgid "Button text for page 2"
+msgstr "Κείμενο κουμπιού για Σελίδα 2"
+
+#: inc/customizer.php:129
+msgid "button text for page 2"
+msgstr "κείμενο κουμπιού για Σελίδα 2"
+
+#: inc/customizer.php:146 inc/customizer.php:147
+msgid "Button url for page 2"
+msgstr "Url κουμπιού για Σελίδα 2"
+
+#: inc/customizer.php:166 inc/customizer.php:167
+msgid "Set slider page 3"
+msgstr "Σελίδα 3 slider"
+
+#: inc/customizer.php:184
+msgid "Button text for page 3"
+msgstr "Κείμενο κουμπιού για Σελίδα 3"
+
+#: inc/customizer.php:185
+msgid "button text for page 3"
+msgstr "κείμενο κουμπιού για Σελίδα 3"
+
+#: inc/customizer.php:202 inc/customizer.php:203
+msgid "Button url for page 3"
+msgstr "Url κουμπιού για Σελίδα 3"
+
+#: inc/customizer.php:212
+msgid "Home Page Products and Blog Settings"
+msgstr "Αρχική Σελίδα Προιόντα και Ρυθμίσεις Ιστολογίου"
+
+#: inc/customizer.php:213
+msgid "Home Page Section"
+msgstr "Ενότητα Αρχικής Σελίδας"
+
+#: inc/customizer.php:220
+msgid "Popular Products"
+msgstr "Δημοφιλή Προιόντα"
+
+#: inc/customizer.php:227
+msgid "Set Popular Products Title"
+msgstr "Τίτλος Ενότητας Δημοφιλών Προιόντων"
+
+#: inc/customizer.php:228
+msgid "Set Polular Products Title"
+msgstr "Τίτλος Ενότητας Δημοφιλών Προιόντων"
+
+#: inc/customizer.php:245
+msgid "Set Popular Products Max Number"
+msgstr "Μέγιστος Αριθμός Δημοφιλών Προιόντων"
+
+#: inc/customizer.php:246
+msgid "Set Polular Products Max Number"
+msgstr "Μέγιστος Αριθμός Δημοφιλών Προιόντων"
+
+#: inc/customizer.php:262
+msgid "Set Popular Products Max Columns"
+msgstr "Μέγιστος αριθμός κολώνων Δημοφιλών Προιόντων"
+
+#: inc/customizer.php:263
+msgid "Set Polular Products Max Columns"
+msgstr "Μέγιστος αριθμός κολώνων Δημοφιλών Προιόντων"
+
+#: inc/customizer.php:275 template-home.php:85
+msgid "New Arrivals"
+msgstr "Νέες Παραλαβές"
+
+#: inc/customizer.php:282 inc/customizer.php:283
+msgid "Set New Arrivals Title"
+msgstr "Τίτλος Ενότητας Νέων Παραλαβών"
+
+#: inc/customizer.php:300 inc/customizer.php:301
+msgid "Set New Arrivals Max Number"
+msgstr "Μέγιστος Αριθμός για Νέες Παραλαβές"
+
+#: inc/customizer.php:317 inc/customizer.php:318
+msgid "Set New Arrivals Max Columns"
+msgstr "Μέγιστος αριθμός κολώνων για Νέες Παραλαβές"
+
+#: inc/customizer.php:337
+msgid "Show Deal of the Week?"
+msgstr "Εμφάνιση της ευκαιρίας της Εβδομάδας?"
+
+#: inc/customizer.php:347
+msgid "Deal of The Week"
+msgstr "Ευκαιρίας της Εβδομάδας"
+
+#: inc/customizer.php:354
+msgid "Deal of the Week Title"
+msgstr "Τίτλος Ευκαιρίας της Εβδομάδας"
+
+#: inc/customizer.php:355
+msgid "Title to display"
+msgstr "Τίτλος για Εμφάνιση"
+
+#: inc/customizer.php:372
+msgid "Deal of the Week Product ID"
+msgstr "Ταυτότητα Προιόντος για Ευκαιρίας της Εβδομάδας"
+
+#: inc/customizer.php:373
+msgid "Product ID to Display"
+msgstr "Ταυτότητα Προιόντως προς Εμφάνιση"
+
+#: search.php:16
+msgid "Search results for"
+msgstr "Αποτελέσματα αναζήτησης για"
+
+#: search.php:29
+msgid "There are no results for your query"
+msgstr "Δεν υπάρχουν αποτελέσματα για την αναζήτηση"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Αναζήτηση &hellip;"
+
+#: searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: template-home.php:77
+msgid "Popular products"
+msgstr "Δημοφιλή Προιόντα"
+
+#: template-home.php:106
+msgid "Deal of the Week"
+msgstr "Ευκαιρίας της Εβδομάδας"
+
+#: template-home.php:115
+msgid "% OFF"
+msgstr "Έκτπωση"
+
+#: template-home.php:138
+msgid "Add to Cart"
+msgstr "Προσθήκη στο Καλάθι"
+
+#: template-home.php:152
+msgid "News From Our Blog"
+msgstr "Νέα από το Ιστολόγιο"
+
+#: template-parts/content-archive.php:15 template-parts/content-search.php:15
+#: template-parts/content-single.php:5 template-parts/content.php:15
+msgid "Published by"
+msgstr "Δημοσιεύθηκε από"
+
+#: template-parts/content-archive.php:15 template-parts/content-search.php:15
+#: template-parts/content-single.php:5 template-parts/content.php:15
+msgid "on"
+msgstr "στις"
+
+#: template-parts/content-archive.php:18 template-parts/content-search.php:18
+#: template-parts/content-single.php:7 template-parts/content.php:18
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: template-parts/content-archive.php:22 template-parts/content-search.php:22
+#: template-parts/content-single.php:10 template-parts/content.php:22
+msgid "Tags"
+msgstr "Ετικέτες"
