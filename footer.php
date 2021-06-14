@@ -36,7 +36,7 @@
                     <div class="row">
                         <div class="copyright-text col-12 col-md-6">
                             <p>
-                                <?php echo get_theme_mod('set_copyright', __('Copyright X - All Rights Reserved', 'fancy-lab')); ?>
+                                <?php echo esc_html(get_theme_mod('set_copyright', __('Copyright X - All Rights Reserved', 'fancy-lab'))); ?>
                             </p>
                         </div>
                         <div class="footer-menu col-12 col-md-6 text-left text-md-right">
